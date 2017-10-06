@@ -97,17 +97,22 @@ textarea {
    Mobile First
    ========================================================================== */
 body {
+  margin: 0 .5em 0 .3em;
   background-color: rgb(255, 191, 128);
   font-family: 'Cantarell', sans-serif;
+  color: rgb(204, 102, 0);
 }
 
-.name {
+.bold {
   font-family: 'Sacramento', cursive;
-  font-size: 3em;
   color: rgb(209, 179, 255);
   text-shadow: 2px 0 rgb(163, 102, 255);
-  text-align: center;
-  margin: .5em 0 0 0;
+}
+
+#name {
+    font-size: 3em;
+    text-align: center;
+    margin: .5em 0 0 0;
 }
 .main-nav {
   margin: 0;
@@ -135,7 +140,24 @@ header li:last-child {
   border-bottom: none;
 }
 
+#greeting {
+  font-size: 2.5em;
+  margin: .5em 0 -.3em .4em;
+}
 
+.hero-text p {
+  font-size: 1em;
+  margin: 0 0 0 2em;
+  letter-spacing: -.1em;
+  line-height: 1.4em;
+}
+
+.amp {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2em;
+  float: left;
+  margin: .5em 0 0 0;
+}
 
 
 
@@ -158,16 +180,14 @@ header li:last-child {
 @media (min-width: 600px){
 
 .main-nav{
-    width: 50%;
-    display: inline;
-  }
+
 
 
 
 }
 
 @media (min-width: 768px){
-  header li a {
+
 
 }
 
