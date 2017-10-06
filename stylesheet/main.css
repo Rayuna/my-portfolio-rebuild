@@ -110,9 +110,9 @@ body {
 }
 
 #name {
-    font-size: 3em;
-    text-align: center;
-    margin: .5em 0 0 0;
+  font-size: 3em;
+  text-align: center;
+  margin: .5em 0 0 0;
 }
 .main-nav {
   margin: 0;
@@ -147,7 +147,7 @@ header li:last-child {
 
 .hero-text p {
   font-size: 1em;
-  margin: 0 0 0 2em;
+  margin-left: 2em;
   letter-spacing: -.1em;
   line-height: 1.4em;
 }
@@ -156,7 +156,7 @@ header li:last-child {
   font-family: 'Pacifico', cursive;
   font-size: 1.2em;
   float: left;
-  margin: .5em 0 0 0;
+  margin-top: .5em;
 }
 
 
